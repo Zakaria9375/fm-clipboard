@@ -42,7 +42,7 @@ body {
 
 @media (max-width: 576px) {
 	body {
-		background-image: url("/public/images/bg-header-mobile.png");
+		background-image: url("public/images/bg-header-mobile.png");
 	}
 }
 .ficon:hover {
