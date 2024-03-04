@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply text-[2.875rem] lsm:text-4xl font-semibold  tracking-[-1.5%] text-cdark text-center leading-snug my-6;
+	}
+	h2 {
+		@apply text-[2.25rem] font-semibold  tracking-[-1.5%] text-cdark text-center leading-snug;
+	}
+	h3 {
+		@apply text-[1.5rem] font-semibold  tracking-[-2%] text-cdark leading-snug;
+	}
+	h4 {
+		@apply text-[1.25rem] font-normal  tracking-[-0.5%] text-cgray;
+	}
+	p {
+		@apply text-[1.125rem] font-normal  tracking-[-0.75%] text-cgray;
+	}
+	h5 {
+		@apply text-[1rem] font-normal  tracking-[-0.75%] text-cgray;
+	}
+	a {
+		@apply text-[1.125rem] font-normal  tracking-[-0.75%] text-cdark hover:text-secondary cursor-pointer block;
+	}
+}
+@layer components {
+	.zflex {
+		@apply flex items-center justify-center;
+	}
+	.btn {
+		@apply h-[57px] w-[228px] rounded-full text-center;
+	}
+}
+
+body {
+	background-image: url("/public/images/bg-header-desktop.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+@media (max-width: 576px) {
+	body {
+		background-image: url("/public/images/bg-header-mobile.png");
+	}
+}
+.ficon:hover {
+	filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+		brightness(101%) contrast(94%);
+}
