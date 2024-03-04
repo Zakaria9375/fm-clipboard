@@ -17,7 +17,7 @@ npm install
 
 - [Figma](https://www.figma.com/file/QDN01x4eriTUU6M7oL1GTa/clipboard?type=design&node-id=33%3A127&mode=dev&t=WdFOtnZAHUoZW9Xa-1)  
   - That is not the figma design but I just use figma to make my desgin as close as possible to the original desgin  
-- [Live]()
+- [Live](https://zakaria9375.github.io/fm-clipboard/)
 
 ## Author
 
