@@ -35,14 +35,14 @@
 }
 
 body {
-	background-image: url("public/images/bg-header-desktop.png");
+	background-image: url("../public/images/bg-header-desktop.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 @media (max-width: 576px) {
 	body {
-		background-image: url("public/images/bg-header-mobile.png");
+		background-image: url("../public/images/bg-header-mobile.png");
 	}
 }
 .ficon:hover {
